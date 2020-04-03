@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-routes: RouteRecord[];
+routes: RouteRecordRaw[];
 ```

@@ -7,9 +7,9 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function useRouter(): import("./router").Router;
+export declare function useRouter(): Router;
 ```
 <b>Returns:</b>
 
-`import("./router").Router`
+`Router`
 

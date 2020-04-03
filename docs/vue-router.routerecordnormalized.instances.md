@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-instances: Record<string, {} | undefined | null>;
+instances: Record<string, ComponentPublicInstance | undefined | null>;
 ```

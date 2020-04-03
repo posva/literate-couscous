@@ -14,7 +14,7 @@ export interface Router
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [currentRoute](./vue-router.router.currentroute.md) | <code>Ref&lt;RouteLocationNormalizedResolved&gt;</code> |  |
+|  [currentRoute](./vue-router.router.currentroute.md) | <code>Ref&lt;RouteLocationNormalizedLoaded&gt;</code> |  |
 |  [history](./vue-router.router.history.md) | <code>RouterHistory</code> |  |
 
 ## Methods

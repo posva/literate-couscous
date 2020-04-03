@@ -16,7 +16,7 @@ export interface RouterOptions
 |  --- | --- | --- |
 |  [history](./vue-router.routeroptions.history.md) | <code>RouterHistory</code> |  |
 |  [parseQuery](./vue-router.routeroptions.parsequery.md) | <code>typeof originalParseQuery</code> |  |
-|  [routes](./vue-router.routeroptions.routes.md) | <code>RouteRecord[]</code> |  |
+|  [routes](./vue-router.routeroptions.routes.md) | <code>RouteRecordRaw[]</code> |  |
 |  [scrollBehavior](./vue-router.routeroptions.scrollbehavior.md) | <code>ScrollBehavior</code> |  |
 |  [stringifyQuery](./vue-router.routeroptions.stringifyquery.md) | <code>typeof originalStringifyQuery</code> |  |
 

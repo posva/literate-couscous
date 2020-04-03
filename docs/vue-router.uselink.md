@@ -8,7 +8,7 @@
 
 ```typescript
 export declare function useLink(props: UseLinkOptions): {
-    route: import("vue").ComputedRef<RouteLocationNormalized>;
+    route: import("vue").ComputedRef<RouteLocation>;
     href: import("vue").ComputedRef<string>;
     isActive: import("vue").ComputedRef<boolean>;
     isExactActive: import("vue").ComputedRef<boolean>;
@@ -25,7 +25,7 @@ export declare function useLink(props: UseLinkOptions): {
 <b>Returns:</b>
 
 `{
-    route: import("vue").ComputedRef<RouteLocationNormalized>;
+    route: import("vue").ComputedRef<RouteLocation>;
     href: import("vue").ComputedRef<string>;
     isActive: import("vue").ComputedRef<boolean>;
     isExactActive: import("vue").ComputedRef<boolean>;

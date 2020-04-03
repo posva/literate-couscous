@@ -9,17 +9,18 @@ Transforms a queryString into a [LocationQuery](./vue-router.locationquery.md) o
 <b>Signature:</b>
 
 ```typescript
-export declare function parseQuery(search: string): LocationQuery
+export declare function parseQuery(search: string): LocationQuery;
 ```
 
 ## Parameters
 
-| Parameter | Type                | Description            |
-| --------- | ------------------- | ---------------------- |
-| search    | <code>string</code> | search string to parse |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  search | <code>string</code> | search string to parse |
 
 <b>Returns:</b>
 
 `LocationQuery`
 
 a query object
+

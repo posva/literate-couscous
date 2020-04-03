@@ -7,9 +7,9 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function useRoute(): import("./types").RouteLocationNormalizedResolved;
+export declare function useRoute(): RouteLocationNormalizedLoaded;
 ```
 <b>Returns:</b>
 
-`import("./types").RouteLocationNormalizedResolved`
+`RouteLocationNormalizedLoaded`
 

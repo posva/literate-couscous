@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-currentRoute: Ref<RouteLocationNormalizedResolved>;
+currentRoute: Ref<RouteLocationNormalizedLoaded>;
 ```

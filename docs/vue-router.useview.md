@@ -9,7 +9,7 @@
 ```typescript
 export declare function useView(options: UseViewOptions): (attrs: {
     [key: string]: unknown;
-}) => import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement> | null;
+}) => import("vue").VNode<any, any> | null;
 ```
 
 ## Parameters
@@ -22,5 +22,5 @@ export declare function useView(options: UseViewOptions): (attrs: {
 
 `(attrs: {
     [key: string]: unknown;
-}) => import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement> | null`
+}) => import("vue").VNode<any, any> | null`
 

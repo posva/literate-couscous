@@ -7,16 +7,16 @@
 <b>Signature:</b>
 
 ```typescript
-resolve(to: RouteLocation): RouteLocationNormalized;
+resolve(to: RouteLocationRaw): RouteLocation;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  to | <code>RouteLocation</code> |  |
+|  to | <code>RouteLocationRaw</code> |  |
 
 <b>Returns:</b>
 
-`RouteLocationNormalized`
+`RouteLocation`
 

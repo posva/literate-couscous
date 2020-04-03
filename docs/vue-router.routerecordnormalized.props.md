@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-props: Exclude<RouteRecordCommon['props'], void>;
+props: Exclude<_RouteRecordBase['props'], void>;
 ```

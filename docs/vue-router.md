@@ -26,13 +26,14 @@
 |  --- | --- |
 |  [NavigationGuard](./vue-router.navigationguard.md) |  |
 |  [PostNavigationGuard](./vue-router.postnavigationguard.md) |  |
-|  [RouteLocationNormalized](./vue-router.routelocationnormalized.md) |  |
-|  [RouteLocationNormalizedResolved](./vue-router.routelocationnormalizedresolved.md) |  |
+|  [RouteLocationMatched](./vue-router.routelocationmatched.md) |  |
+|  [RouteLocationNormalized](./vue-router.routelocationnormalized.md) | Similar to  but its [RouteLocationNormalized.matched](./vue-router.routelocationnormalized.matched.md) cannot contain redirect records |
+|  [RouteLocationNormalizedLoaded](./vue-router.routelocationnormalizedloaded.md) | [RouteLocationRaw](./vue-router.routelocationraw.md) with |
 |  [RouteLocationOptions](./vue-router.routelocationoptions.md) |  |
 |  [Router](./vue-router.router.md) |  |
 |  [RouteRecordNormalized](./vue-router.routerecordnormalized.md) |  |
-|  [RouterHistory](./vue-router.routerhistory.md) |  |
 |  [RouterOptions](./vue-router.routeroptions.md) |  |
+|  [ScrollBehavior\_2](./vue-router.scrollbehavior_2.md) |  |
 
 ## Variables
 
@@ -47,7 +48,9 @@
 |  Type Alias | Description |
 |  --- | --- |
 |  [LocationQuery](./vue-router.locationquery.md) | Normalized query object that appears in [RouteLocationNormalized](./vue-router.routelocationnormalized.md) |
-|  [LocationQueryRaw](./vue-router.locationqueryraw.md) | Loose [LocationQuery](./vue-router.locationquery.md) object that can be passed to functions like [Router.push()](./vue-router.router.push.md) and [Router.replace()](./vue-router.router.replace.md) or anywhere when creating a  |
+|  [LocationQueryRaw](./vue-router.locationqueryraw.md) | Loose [LocationQuery](./vue-router.locationquery.md) object that can be passed to functions like [Router.push()](./vue-router.router.push.md) and [Router.replace()](./vue-router.router.replace.md) or anywhere when creating a [RouteLocationRaw](./vue-router.routelocationraw.md) |
+|  [RouteLocationRaw](./vue-router.routelocationraw.md) | User-level route location |
 |  [RouteParams](./vue-router.routeparams.md) |  |
 |  [RouteRecord](./vue-router.routerecord.md) |  |
+|  [RouteRecordRaw](./vue-router.routerecordraw.md) |  |
 

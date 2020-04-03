@@ -4,6 +4,8 @@
 
 ## RouteLocationNormalized.matched property
 
+Array of [RouteRecordNormalized](./vue-router.routerecordnormalized.md)
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,7 +4,7 @@
 
 ## LocationQueryRaw type
 
-Loose [LocationQuery](./vue-router.locationquery.md) object that can be passed to functions like [Router.push()](./vue-router.router.push.md) and [Router.replace()](./vue-router.router.replace.md) or anywhere when creating a 
+Loose [LocationQuery](./vue-router.locationquery.md) object that can be passed to functions like [Router.push()](./vue-router.router.push.md) and [Router.replace()](./vue-router.router.replace.md) or anywhere when creating a [RouteLocationRaw](./vue-router.routelocationraw.md)
 
 <b>Signature:</b>
 

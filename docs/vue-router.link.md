@@ -8,8 +8,8 @@
 
 ```typescript
 Link: new () => import("vue").ComponentPublicInstance<{
-    to: RouteLocation;
-} & {}, () => import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement>, unknown, {}, {}, import("vue").VNodeProps & {
-    to: RouteLocation;
+    to: RouteLocationRaw;
+} & {}, () => import("vue").VNode<any, any>, unknown, {}, {}, import("vue").VNodeProps & {
+    to: RouteLocationRaw;
 } & {}>
 ```

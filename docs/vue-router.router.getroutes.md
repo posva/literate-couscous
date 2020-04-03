@@ -7,9 +7,9 @@
 <b>Signature:</b>
 
 ```typescript
-getRoutes(): RouteRecordNormalized[];
+getRoutes(): RouteRecord[];
 ```
 <b>Returns:</b>
 
-`RouteRecordNormalized[]`
+`RouteRecord[]`
 

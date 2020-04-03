@@ -18,10 +18,10 @@ export interface RouteRecordNormalized
 |  [beforeEnter](./vue-router.routerecordnormalized.beforeenter.md) | <code>RouteRecordMultipleViews['beforeEnter']</code> |  |
 |  [children](./vue-router.routerecordnormalized.children.md) | <code>Exclude&lt;RouteRecordMultipleViews['children'], void&gt;</code> |  |
 |  [components](./vue-router.routerecordnormalized.components.md) | <code>RouteRecordMultipleViews['components']</code> |  |
-|  [instances](./vue-router.routerecordnormalized.instances.md) | <code>Record&lt;string, {} &#124; undefined &#124; null&gt;</code> |  |
+|  [instances](./vue-router.routerecordnormalized.instances.md) | <code>Record&lt;string, ComponentPublicInstance &#124; undefined &#124; null&gt;</code> |  |
 |  [leaveGuards](./vue-router.routerecordnormalized.leaveguards.md) | <code>NavigationGuard&lt;undefined&gt;[]</code> |  |
 |  [meta](./vue-router.routerecordnormalized.meta.md) | <code>Exclude&lt;RouteRecordMultipleViews['meta'], void&gt;</code> |  |
 |  [name](./vue-router.routerecordnormalized.name.md) | <code>RouteRecordMultipleViews['name']</code> |  |
 |  [path](./vue-router.routerecordnormalized.path.md) | <code>RouteRecordMultipleViews['path']</code> |  |
-|  [props](./vue-router.routerecordnormalized.props.md) | <code>Exclude&lt;RouteRecordCommon['props'], void&gt;</code> |  |
+|  [props](./vue-router.routerecordnormalized.props.md) | <code>Exclude&lt;_RouteRecordBase['props'], void&gt;</code> |  |
 

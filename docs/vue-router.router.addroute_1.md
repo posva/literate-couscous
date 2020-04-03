@@ -7,14 +7,14 @@
 <b>Signature:</b>
 
 ```typescript
-addRoute(route: RouteRecord): () => void;
+addRoute(route: RouteRecordRaw): () => void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  route | <code>RouteRecord</code> |  |
+|  route | <code>RouteRecordRaw</code> |  |
 
 <b>Returns:</b>
 

@@ -7,16 +7,16 @@
 <b>Signature:</b>
 
 ```typescript
-push(to: RouteLocation): Promise<RouteLocationNormalizedResolved>;
+push(to: RouteLocationRaw): Promise<TODO>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  to | <code>RouteLocation</code> |  |
+|  to | <code>RouteLocationRaw</code> |  |
 
 <b>Returns:</b>
 
-`Promise<RouteLocationNormalizedResolved>`
+`Promise<TODO>`
 

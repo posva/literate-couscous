@@ -7,7 +7,7 @@
 <b>Signature:</b>
 
 ```typescript
-addRoute(parentName: string, route: RouteRecord): () => void;
+addRoute(parentName: string, route: RouteRecordRaw): () => void;
 ```
 
 ## Parameters
@@ -15,7 +15,7 @@ addRoute(parentName: string, route: RouteRecord): () => void;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  parentName | <code>string</code> |  |
-|  route | <code>RouteRecord</code> |  |
+|  route | <code>RouteRecordRaw</code> |  |
 
 <b>Returns:</b>
 

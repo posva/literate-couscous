@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-export declare type RouteRecord = RouteRecordSingleView | RouteRecordMultipleViews | RouteRecordRedirect;
+export declare type RouteRecord = RouteRecordNormalized | RouteRecordRedirect;
 ```

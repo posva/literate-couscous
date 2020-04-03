@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-START_LOCATION_NORMALIZED: RouteLocationNormalizedResolved
+START_LOCATION_NORMALIZED: RouteLocationNormalizedLoaded
 ```

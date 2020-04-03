@@ -9,7 +9,7 @@
 ```typescript
 View: new () => ComponentPublicInstance<{
     name: string;
-} & {}, () => import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement> | null, unknown, {}, {}, import("vue").VNodeProps & {} & {
+} & {}, () => import("vue").VNode<any, any> | null, unknown, {}, {}, import("vue").VNodeProps & {} & {
     name?: string | undefined;
 }>
 ```

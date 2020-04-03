@@ -7,14 +7,14 @@
 <b>Signature:</b>
 
 ```typescript
-createHref(to: RouteLocationNormalized): string;
+createHref(to: RouteLocation): string;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  to | <code>RouteLocationNormalized</code> |  |
+|  to | <code>RouteLocation</code> |  |
 
 <b>Returns:</b>
 
